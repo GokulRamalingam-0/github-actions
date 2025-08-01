@@ -13,4 +13,11 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+
+  Deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy Step
+        run: echo "Deploy step in Delpoy stage"
     
