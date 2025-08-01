@@ -1,4 +1,4 @@
-- name: "Github Actions Basic Pipeline template"
+name: "Github Actions Basic Pipeline template"
 
 on:
   push:
